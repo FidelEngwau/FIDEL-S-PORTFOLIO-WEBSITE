@@ -42,6 +42,7 @@
             top: 0;
             width: 100%;
             background-color: rgba(10, 15, 29, 0.9);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-color);
             z-index: 1000;
@@ -110,6 +111,7 @@
             color: var(--primary-royal);
             background: linear-gradient(to right, var(--primary-royal), var(--secondary-sky));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -315,6 +317,10 @@
             border-radius: 16px;
         }
 
+        .contact-container h2 {
+            margin-bottom: 15px;
+        }
+
         .contact-container p {
             color: var(--text-muted);
             font-size: 1.1rem;
@@ -454,7 +460,7 @@
         <div class="about-grid">
             <div class="about-text">
                 <p>I am driven by a deep curiosity about how systems connect and how they can be fundamentally secured. Currently pursuing my education at Uganda Christian University, I blend my foundational IT knowledge with emerging technologies to build comprehensive solutions.</p>
-                <p>Beyond technology, I bring a competitive and disciplined mindset to everything I do. As an athlete, I understand the immense value of teamwork, consistency, and endurance—traits that translate directly into monitoring systems and solving complex computational problems.</p>
+                <p>Beyond technology, I bring a competitive and disciplined mindset to everything I do. As an athlete, I understand the immense value of teamwork, consistency, and endurance, traits that translate directly into monitoring systems and solving complex computational problems.</p>
             </div>
             <div class="about-meta">
                 <div class="about-photo-wrap">
@@ -530,11 +536,11 @@
 
     <section id="contact">
         <div class="contact-container">
-            <h2 style="margin-bottom: 15px;">Let's Connect</h2>
+            <h2>Let's Connect</h2>
             <p>Whether you're looking to collaborate on a tech project, discuss data security, or talk tech infrastructure, feel free to reach out!</p>
             <div class="contact-links">
-                <a href="https://mail.google.com/mail/?view=cm&to=casiefidel@gmail.com" target="_blank" class="btn btn-primary">Email Me</a>
-                <a href="https://www.linkedin.com/in/engwau-fidel-38a881382/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B5gwf0Xy%2BTr2qo26dYFdk6A%3D%3D" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+                <a href="https://mail.google.com/mail/?view=cm&to=casiefidel@gmail.com" target="_blank" rel="noopener" class="btn btn-primary">Email Me</a>
+                <a href="https://www.linkedin.com/in/engwau-fidel-38a881382/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B5gwf0Xy%2BTr2qo26dYFdk6A%3D%3D" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn Profile</a>
             </div>
         </div>
     </section>
